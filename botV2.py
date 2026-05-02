@@ -1,6 +1,5 @@
 """
 WhatsApp Bot - Ana Modül
-Gelişmiş WhatsApp otomasyon botu - Tüm özellikler dahil
 """
 
 import os
@@ -398,7 +397,7 @@ def main():
             return
         
         # Alıcıları al
-        recipients_str = os.getenv('RECIPIENTS', '+905467937512')
+        recipients_str = os.getenv('RECIPIENTS', '+90 TelefonNumarası')
         recipients = parse_recipients(recipients_str)
         
         if not recipients:
