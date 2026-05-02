@@ -1,4 +1,4 @@
-# WhatsApp Remote Bot 🤖📱
+# WhatsApp Remote Bot 
 
 **Telegram üzerinden komut vererek WhatsApp Web'i arka planda (headless) yönetmenizi sağlayan gelişmiş otomasyon aracı.**
 
@@ -6,7 +6,7 @@ Bu proje, bilgisayarınızdan uzaktayken bile telefonunuzdaki Telegram aracılı
 
 ---
 
-## 🌟 Öne Çıkan Özellikler
+## Öne Çıkan Özellikler
 
 * **Uzaktan Kontrol:** Sadece yetkilendirdiğiniz Telegram hesabından gelen emirleri dinler. Dünyanın her yerinden bilgisayarınıza WhatsApp komutu verebilirsiniz.
 * **Toplu Gönderim:** Virgülle ayırdığınız sınırsız sayıdaki numaraya sırayla mesaj iletebilir.
@@ -16,7 +16,7 @@ Bu proje, bilgisayarınızdan uzaktayken bile telefonunuzdaki Telegram aracılı
 
 ---
 
-## ⚙️ Kurulum
+## Kurulum
 
 ### 1. Gereksinimler
 * Python 3.8 veya üzeri
@@ -35,7 +35,7 @@ pip install selenium webdriver-manager python-dotenv pyyaml requests pyTelegramB
 
 ---
 
-## 🔐 Telegram Botu Ayarlama
+## Telegram Botu Ayarlama
 
 Botu uzaktan kontrol edebilmeniz için kendi Telegram botunuzu yaratmanız gerekir. Bu işlem 2 dakika sürer:
 
@@ -62,7 +62,7 @@ TELEGRAM_CHAT_ID="Sizin_Chat_ID_Numaraniz"
 
 ---
 
-## 🚀 Kullanım
+## Kullanım
 
 ### Normal (Manuel) Başlatma
 Terminali açıp aşağıdaki komutu girdiğinizde dinleyici bot çalışmaya başlar:
@@ -80,7 +80,7 @@ Bot uyanacak, arka planda WhatsApp'ı açacak, sırayla numaralara mesajı ataca
 
 ---
 
-## 🤖 Otomasyon: Windows'ta 7/24 Otomatik Çalıştırma
+## Otomasyon: Windows'ta 7/24 Otomatik Çalıştırma
 
 Terminal siyah ekranının sürekli açık kalmasını istemiyorsanız veya bilgisayarınız her açıldığında botun otomatik olarak arka planda (görünmez şekilde) devreye girmesini istiyorsanız şu adımları izleyin:
 
